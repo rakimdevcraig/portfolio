@@ -100,19 +100,14 @@ nav p{
   text-align: center;
 }
 
-/* .skills ul li{
-  font-size: 1.5rem;
-  display: inline-table;
-}
-
-.skills ul{
-  margin-bottom: 0px;
-
-} */
 
 .skillpic{
   width: 20%;
   float: left;
+}
+
+.projectpics{
+  width: 100%;
 }
 
 .showcase{
@@ -133,6 +128,7 @@ a{
   text-decoration: none;
   color: rgb(0, 102, 153)
 }
+
 .currently ul li{
   display: inline-block;
 }
@@ -140,7 +136,6 @@ a{
 .faIcons li i{
   color: black;
   font-size: 30px;
-
 }
 
 .faIcons{
