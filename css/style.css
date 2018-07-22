@@ -149,6 +149,12 @@ tablet media query
 
 @media (min-width: 0px) and (max-width:736px){
   .examples{
-    width: 100%;
+    width: 90%;
   }
+
+  .skillpic{
+    width: 50%;
+    float: left;
+  }
+
 }
