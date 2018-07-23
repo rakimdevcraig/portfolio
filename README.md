@@ -15,6 +15,4 @@ Optimizations
 I eventually want to add a carousel that shows a bunch of my projects in it. I also am considering adding a hamburger menu when the site is displayed on smaller devices. As a developer i'm constantly growing so as the skills come I will implement them.
 
 Lessons Learned:
-After talking to alot of developers and seeing a bunch of other developers portfolios i've learned that you're portfolio is a proper representation of you and everyones will be different. At first I didn't know what my purpose was with this portfolio and after I grasped that I was able to work more effective
-
-Examples:
+After talking to alot of developers and seeing a bunch of other developers portfolios i've learned that you're portfolio is a proper representation of you and everyones will be different. At first I didn't know what my purpose was with this portfolio and after I grasped that I was able to work with more intent.
