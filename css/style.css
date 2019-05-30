@@ -35,8 +35,8 @@ nav{
   float: left;
 }
 .examples{
-  width: 28%;
-  margin-left: 4%;
+  width: 50%;
+  /* margin-left: 4%; */
   float: left;
   text-align: center;
 }
