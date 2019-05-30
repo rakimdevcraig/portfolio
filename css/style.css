@@ -35,8 +35,8 @@ nav{
   float: left;
 }
 .examples{
-  width: 50%;
-  /* margin-left: 4%; */
+  width: 45%;
+  margin-left: 4%;
   float: left;
   text-align: center;
 }
@@ -44,16 +44,20 @@ nav{
 .currently{
   width: 100%;
   clear: both;
-  /* background-color: rgb(229, 232, 227) */
 }
 
 /******************************************
 /* Additional Styles
 /*******************************************/
+body{
+  background-color: yellow;
+  /* color: #893667; */
+}
 
 h1{
   text-align: center;
   font-size: 3rem;
+  font-weight: normal;
 }
 
 p{
