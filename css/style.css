@@ -1,154 +1,157 @@
-*{
-  box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
-nav{
-  width: 100%;
-
-}
-
-.main{
-  width: 100%;
-  /* background-color: rgb(229, 232, 227) */
-}
-
-.about{
-  width: 100%;
+body {
+    background-color: black;
+    color: white;
+    line-height: 1.5;
 }
 
 
-.projects{
-  width: 100%;
+a:hover {
+    color: #aa73ff;
 }
 
-.text{
-  width: 100%;
-  float: left;
+img {
+    width: 480px;
+    height: 520px;
 }
 
-.projects{
-  width: 100%;
-  float: left;
-}
-.examples{
-  width: 45%;
-  margin-left: 4%;
-  float: left;
-  text-align: center;
-}
-
-.currently{
-  width: 100%;
-  clear: both;
-}
-
-/******************************************
-/* Additional Styles
-/*******************************************/
-body{
-  background-color: yellow;
-  /* color: #893667; */
-}
-
-h1{
-  text-align: center;
-  font-size: 3rem;
-  font-weight: normal;
-}
-
-p{
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.jobtitle{
-  text-align: center;
-}
-.nav ul li{
-  display: inline-block;
-}
-
-
-nav p{
-  margin-top: 0px;
-}
-
-.topnav{
-  width: 100%;
-  float: left;
-}
-.navName{
-  width: 100%;
-}
-
-.job{
-  float: left;
-  width: 100%;
-}
-
-.picofme{
-  display: block;
-  margin: 10px auto;
-  border-radius: 50%;
-}
-
-.goal{
-  text-align: center;
-}
-
-.projectpics{
-  width: 100%;
-}
-
-.showcase{
-  width: 100%;
-  height: 250px;
-}
-
-.text h1{
-  margin: 0;
-}
-
-.emoji{
-  height: 30px;
-  width: 30px;
-}
-
-a{
-  text-decoration: none;
-  color: rgb(0, 102, 153)
-}
-
-.currently ul li{
-  display: inline-block;
-}
-
-.faIcons li i{
-  color: black;
-  font-size: 30px;
-}
-
-.faIcons{
-  text-align: center;
-  padding: 0;
-}
-
-/******************************************************
-tablet media query
-******************************************************/
-
-@media (min-width: 0px) and (max-width:736px){
-  .examples{
-    width: 90%;
-  }
-
-  .skillpic{
-    width: 50%;
+.intro {
+    width: 100%;
     float: left;
-  }
+}
+
+.about1 {
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    font-size: 22px;
+    margin-left: 90px;
+    margin-top: 160px;
+}
+
+.about2 {
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    font-size: 22px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.together {
+    margin-top: 45px;
+}
+
+.link {
+    color: #aa73ff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 90px;
+    font-size: 22px;
+}
+
+.worked {
+    text-align: center;
+    margin-top: 45px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    font-size: 35px;
+}
+
+.title{
+    color: white;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 35px; 
+}
+
+.description {
+    color: white;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.leftprojects {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.rightprojects {
+    float: left;
+    width: 50%;
+}
+
+
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leftanchor {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+    border: 2px solid currentColor;
+    padding: 9px 20px 9px 20px;
+}
+
+.bottom {
+    width: 100%;
+    float: left;
+}
+
+.contact {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 0.05em;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
+.reach {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 0.05em;
+    margin-left: 50px;
+}
+
+.bottomlist {
+    list-style: none
+}
+
+/*Particles*/
+
+#stage {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 795px){
+
+    .leftprojects{
+        width: 100%;
+    }
+
+    .rightprojects{
+        width:100%;
+    }
+
+    .pic{
+        margin-top:20px;
+        width: 80%;
+    }
 
 }
